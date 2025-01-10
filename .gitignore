@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.env
+.env.*.local
+*.log
+
+# React (build and dependencies)
+build/
+dist/
+coverage/
+.cache/
+public/
+*.env
+*.env.local
+*.env.*.local
+*.js.map
+*.css.map
+*.tgz
+*.bak
+
+# VSCode settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Debugger configurations
+.vscode/
+
+# Temporary files
+*.swp
+*.swo

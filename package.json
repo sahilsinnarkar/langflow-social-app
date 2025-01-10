@@ -1,0 +1,21 @@
+{
+  "name": "socio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "eventsource": "^3.0.2",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  }
+}
