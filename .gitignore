@@ -13,7 +13,6 @@ build/
 dist/
 coverage/
 .cache/
-public/
 *.env
 *.env.local
 *.env.*.local
