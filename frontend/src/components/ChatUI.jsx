@@ -15,7 +15,7 @@ const ChatUI = () => {
 
         try {
             // Send input to backend with the key 'message' instead of 'input'
-            const response = await axios.post('http://localhost:5000/run-flow', { message: input });
+            const response = await axios.post('https://langflow-social-app.onrender.com/run-flow', { message: input });
 
             // Check if the response contains the output
             if (response.data.response) {
